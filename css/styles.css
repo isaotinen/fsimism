@@ -56,6 +56,18 @@ section h2{
   font-weight: normal;
 }
 
+section h3{
+  font-size: 20px;
+  text-align: center;
+  margin: 0 0 10px;
+  font-weight: normal;
+  padding-top: 10px;
+}
+
+.row{
+  overflow: hidden;
+  margin-bottom: 15px;
+}
 /*header*/
 
 header {
@@ -91,10 +103,6 @@ header h1 {
   float: right;
 }
 
-.row{
-  overflow: hidden;
-}
-
 .about p{
   width: 480px;
   margin: 0 auto;
@@ -102,12 +110,13 @@ header h1 {
 
 /*works*/
 
-.works{
-  text-align: center;
+.works p{
+  width: 480px;
+  margin: 0 auto;
 }
 
 .works a{
-  color: blue;
+  color: grey;
 }
 
 /*contact*/
@@ -125,10 +134,6 @@ header h1 {
 
 .fa-twitter:hover{
   color: #1DA1F2
-}
-
-.fa-envelope:hover{
-  color:#FF0000;
 }
 
 .fa-github:hover{
